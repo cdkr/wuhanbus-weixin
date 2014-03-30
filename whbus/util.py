@@ -54,37 +54,32 @@ ACCESSON_TOKEN = _AccessToken()
 menu_data = {
     "button": [
         {
-            "name": "水果",
+            "name": "",
             "sub_button": [
                 {
                     "type": "click",
-                    "name": "Sh",
-                    "key": "V1001_TODAY_SINGER"
+                    "name": "",
+                    "key": ""
                 }
             ]
         },
         {
-            "name": "订单",
+            "name": "",
             "sub_button": [
                 {
                     "type": "click",
-                    "name": "未发货订单",
-                    "key": "ONTHEWAY",
-                },
-                {
-                    "type": "click",
-                    "name": "取消订单",
+                    "name": "",
                     "key": "DEL",
                 },
                 {
                     "type": "click",
-                    "name": "立即下单",
+                    "name": "",
                     "key": "NORMAL",
                 },
                 {
                     "type": "click",
-                    "name": "使用说明",
-                    "key": "INTRO",
+                    "name": "",
+                    "key": "",
                 }
             ]
         },
@@ -93,18 +88,18 @@ menu_data = {
             "sub_button": [
                 {
                     "type": "click",
-                    "name": "关于我们",
-                    "key": "ABOUT",
+                    "name": "",
+                    "key": "",
                 },
                 {
                     "type": "click",
-                    "name": "收货信息",
-                    "key": "INFO",
+                    "name": "",
+                    "key": "",
                 },
                 {
                     "type": "click",
-                    "name": "发货时间",
-                    "key": "TIME",
+                    "name": "",
+                    "key": "",
                 }
             ]
         }]
