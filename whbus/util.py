@@ -7,8 +7,6 @@ from datetime import datetime, timedelta
 from django.conf import settings
 from django.db.models.signals import post_save, post_delete
 
-from models import Fruit
-
 
 APPID = settings.WX_APPID
 APPSECRET = settings.WX_APPSECRET
