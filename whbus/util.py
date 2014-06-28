@@ -20,8 +20,7 @@ class _AccessToken(str):
     def __str__(self):
         return self.token
 
-    def __repr__(self):
-        return self.__str__()
+    __repr__ = __str__
 
     @property
     def token(self):
